@@ -1,10 +1,23 @@
-# Transforming Clinical Trial Labeling
+# Transforming Clinical Trial Why Stopped Labeling
 
-Welcome to my project for MGTA611 in Winter 2024. My goal was to automate the process of assigning structured labels to unstructured clinical trial text data. Leveraging a transformer model, specifically a pre-trained BERT, and comparing it with a simple logistic regression model, I aimed to understand the reasons clinical trials end.
+## Overview
 
-## Key Highlights
+This project automates the labeling of unstructured clinical trial text data to identify reasons for trial termination using machine learning.
 
-- **Automated Labeling:** I used a BERT model to classify trial endings, aiming to make manual curation less burdensome.
-- **Model Comparison:** Included a logistic regression model for benchmarking, highlighting the transformer model's advantages.
-- **Dataset:** Utilized data from ClinicalTrials.gov, focusing on transforming it for machine learning applications.
-- **Evaluation:** Concentrated on precision, recall, and F1 scores to assess the model's performance.
+## Objectives
+
+- **Data Transformation**: Convert unstructured text data from ClinicalTrials.gov for ML applications.
+- **Model Development**: Implement BERT and logistic regression models.
+- **Model Evaluation**: Compare models using precision, recall and F1 scores.
+
+## Data Source
+
+Data is sourced from [Hugging Face](https://huggingface.co/datasets/opentargets/clinical_trial_reason_to_stop), OpenTargets provided a clean and ready to use manually curated dataset.
+
+## Methodology
+
+1. **Data Preprocessing**: Clean and prepare text data.
+2. **Model Implementation**: Use BERT and logistic regression models.
+3. **Training and Evaluation**: Train models and evaluate performance.
+4. **Comparison**: Analyze strengths and weaknesses of each model.
+
